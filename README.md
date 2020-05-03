@@ -39,6 +39,13 @@ cedict.lookup_traditional("翰")
 Translate Chinese characters to pinyin. This is currently very basic. For a better library, 
 maybe use [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin).
 
+```python
+from hanzitools import pinyinify
+
+pinyinify("转换汉字为拼音。")
+pinyinify("你好！你今天吃饭了没？")
+```
+
 ## Acknowledgements
 
 The Heisig data is owned by *J. W. Heisig & T. W. Richardson, Honolulu: University of Hawai’i Press*.
